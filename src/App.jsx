@@ -5,7 +5,7 @@ import { User, Lock, Mail, Shield, Users, Settings, Home, LogOut, Eye, EyeOff, M
 const AuthContext = createContext();
 
 // API Configuration
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://auth-backend-5azn.onrender.com';
 
 
 // API calls
